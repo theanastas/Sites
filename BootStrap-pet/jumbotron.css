@@ -1,0 +1,16 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+.body {
+  padding-top: 3.5rem;
+}
+.container {
+  margin-left: 10px;
+}
+.jumbotron:hover{
+    background: rgb(199, 192, 192);
+}
+
+#anchor {
+border-top: 80px solid transparent;
+margin-top: 0px;
+background-clip: padding-box;
+}

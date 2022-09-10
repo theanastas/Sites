@@ -1,0 +1,55 @@
+div {
+    padding: 50px;
+    border: 1px solid black;
+    background-color: #fff8dc;
+    margin-left:250px;
+    width: 70%;
+}
+h1, h2, h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 1em;
+}
+h1 {
+    font-size: 26px;
+}
+table,thead,tr,th,td {
+    border: 2px solid black;
+    vertical-align:top;
+    margin:auto; 
+    width:50%;
+    height:100%;
+}
+figcaption {
+    font-style:italic;
+}
+figure {
+    float: right;
+}
+p, ul, ol, li {
+    font-size: 20px;
+}
+caption {
+    font-size: 40px;
+}
+tr, td {
+    font-size: 15px;
+}
+body {
+    background: url(2.jpg);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+table {
+    width:60%;
+    height:100%;
+}
+iframe {
+    margin-left: 50px;
+    min-block-size: 500px;
+    inline-size: 1000px;
+}

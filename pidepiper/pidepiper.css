@@ -1,0 +1,266 @@
+.body {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin: auto;
+}
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;  
+}
+.header_link {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40px;
+    right: 54px;
+}
+.link {
+    margin-right: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0.3px 0.5px 0.3px black;
+}
+.header_item:last-child {
+margin-right: 0;
+}
+.wrapper {
+    max-width: 1219px;
+    margin: 0 auto;
+    width: 100;
+}
+.header {
+    background: url(/Pide/Rectangle.png) no-repeat center bottom;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.hero {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url('/Pide/image.png');
+    margin-top: 75px;
+    background-size: cover;
+    background-position: center center;
+  }
+.title {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+.hero_message {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.theproblem {
+font-family: 'Roboto';
+font-style: inherit;
+font-weight: 10;
+font-size: 25px;
+line-height: 75px;
+/* identical to box height */
+text-align: center;
+
+color: #007765;   
+padding-top: 48px; 
+}
+.content_theproblem {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+padding-bottom: 48px;
+color: #000000;
+}
+.container2 {
+box-sizing: border-box;
+max-width: 1219px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 55px;
+padding-right: 55px;
+}
+  
+.hero2 {
+padding-top: 128px;
+padding-bottom: 128px;
+background-image: url('/Pide/22.png');
+background-size: cover;
+background-position: center center;
+}
+  
+.hero__message2 {
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #fff;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.introducing_head {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 75px;
+/* identical to box height */
+padding-top: 15px;
+text-align: center;
+
+color: #007765;
+
+}
+.logo_coin_pic {
+    margin-left: 45px;
+}
+.content_introducing1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+float: right;
+color: #000000;
+padding-bottom: 50px;
+}
+.team{
+    background: url('bg (1).png');
+    background-size: cover;
+    background-position: center center;
+}
+.TheTeam1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 75px;
+/* identical to box height */
+text-align: center;
+color: #007765;
+box-sizing: border-box;
+max-width: 1219px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 55px;
+padding-right: 100px;
+} 
+.img {
+    width: 500px; /*Устанавливает ширину содержимого элемента*/
+    height: 400px; /*Устанавливает высоту содержимого элемента*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    flex-flow: column wrap;
+    align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+  }
+  /*Изображения*/
+  
+  .name {
+    font-weight: 700; /*Устанавливает насыщенность шрифта*/
+    font-size: 24px; /*Определяет размер шрифта элемента*/
+    line-height: 28px; /*Задаёт высоту строки текста*/
+    color: #007765; /*Определяет цвет текста элемента*/
+  }
+  /*Имя*/
+  
+  .team {
+    padding-top: 58px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  }
+  /*Команда*/
+  
+  .figure {
+    margin: 0; /*Расстояние от края элемента до края другог элемента*/
+    padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  /*Фигура*/
+  
+  .foto {
+    width: 168px; /*Устанавливает ширину содержимого элемента*/
+    height: 168px; /*Устанавливает высоту содержимого элемента*/
+  }
+  /*Фото*/
+  
+  .footer {
+    padding-top: 50px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    background-color: #333; /*Определяет цвет фона элемента*/
+    height: 176px; /*Устанавливает высоту содержимого элемента*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  }
+  /*Подвал сайта*/
+  
+.text {
+    width: 540px; /*Устанавливает ширину содержимого элемента*/
+    height: 74px; /*Устанавливает высоту содержимого элемента*/
+    margin: 0 auto; /*Расстояние от края элемента до края другог элемента*/
+    color: #fff; /*Определяет цвет текста элемента*/
+    font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+    font-weight: normal; /*Устанавливает насыщенность шрифта*/
+    font-size: 18px; /*Определяет размер шрифта элемента*/
+    line-height: 21px; /*Задаёт высоту строки текста*/
+    padding-top: 40px;
+  }
+  @media (max-width: 991px) {
+    .header,
+    .main,
+    .footer {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .header {
+      width: 100%
+    }
+    .main {
+      width: 50%;
+    }
+    .footer {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .header {
+     width: 100%;
+    }
+    .main {
+     width: 100%;
+   }
+   .footer {
+     width: 100%;
+   }
+  }
+@import url('normalize.css');
+#TheProblem, #PiedPiperCoin, #TheTeam {
+    border-top: 200px solid transparent;
+    margin-top: -50px;
+    background-clip: padding-box;
+} 
+
